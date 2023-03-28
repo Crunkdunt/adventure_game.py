@@ -31,18 +31,19 @@ class Player:
         return rep
         
 # Create some random areas to travel through.
-class Room:
-     def __init__(self, name, desc, items, exits, enemies, end):
-          self.room_name = name
-          self.room_desc = desc
-        #   self.room_items = items
-          self.exits = exits
-        #   self.enemies = enemies
-        #   self.is_game_end = end
+# class Room:
+#      def __init__(self, name, desc, items, exits, enemies, end):
+#           self.room_name = name
+#           self.room_desc = desc
+#         #   self.room_items = items
+#           self.exits = exits
+#         #   self.enemies = enemies
+#         #   self.is_game_end = end
 
-def starting_room():
-     exits = ["north","south","east","west"]
-     
+# def starting_room():
+#      exits = ["north","south","east","west"]
+#      name = "Lounge"
+#      desc = "Hey {name}! You're chillin in the lounge. You want to go for a walk. You can go "
 
 player = Player()
 print(player)
